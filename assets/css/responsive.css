@@ -1,0 +1,3037 @@
+.receipt-container {
+    background: #fff;
+    padding: 25px 0;
+    margin-top: 25px;
+    border-top: solid 1px #ededed;
+    
+}
+.receipt-title {
+    line-height: 35px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.receipt-container h4 {
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.receipt-container .receipt-footer {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.receipt-container .receipt-footer strong {
+    font-weight: 600;
+}
+.receipt-container strong {
+    font-weight: 500;
+}
+.receipt-table {
+    border-collapse: collapse;
+    padding: 15px;
+    background: #ccc;
+}
+.receipt-table td {
+    background: #fff;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    font-weight: 400;
+}
+.receipt-table td label {
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 13px !important;
+}
+.receipt-table td.title {
+    text-transform: uppercase;
+    background: #eee;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.receipt-table td.divider {
+    border-color: #fff;
+}
+
+.rechargeList li a:hover {
+    color: #f26e22;
+}
+@media only screen and (min-width: 320px) and (max-width: 400px){
+
+.verticalMenu li a span{
+    font-size: 12px !important;
+    line-height: 27px !important;
+}
+.successWrapper h3{
+    font-size: 15px !important;
+}
+.successWrapper ul li a{
+    font-size: 12px;
+    line-height: 30px;
+}
+.navbar-brand {
+    width: 155px !important;
+}
+.offer .offerText2{
+    font-size: 20px;
+    line-height: 18px;
+}
+.offer .offerText1{
+    font-size: 13px;
+}
+.offer .offerText3{
+    font-size: 13px;
+    letter-spacing: 0;
+}
+}
+@media only screen and (min-width: 401px) and (max-width: 767px){
+.offer .offerText2{
+    font-size: 36px;
+    line-height: 28px;
+}
+.offer .offerText1{
+    font-size: 16px;
+}
+.offer .offerText3{
+    font-size: 16px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .vodaValidation label{
+        width: 45%;
+    }
+    .vodaValidation span{
+        width: 52%;
+    }
+
+    .couponShop .userOff li {
+        width: auto;
+    }
+    .couponShop .userOff li a {
+        padding: 15px 2px !important;
+        font-size: 11px !important;
+        color: #898989;
+        letter-spacing: 0.5px;
+    }
+    #quickPick .item{
+        width: 95%;
+    }
+
+    .rechargeToolTip p{
+        font-size: 11px;
+    }
+    #product .nav-pills li a {
+        padding: 10px 0px;
+        color:#898989;
+    }
+     .sitemap-list li span{
+    font-size: 12px;
+}
+.otherlink li a{
+    font-size: 11px !important;
+}
+.service-categories ul li{
+    margin-bottom: 15px;
+    padding: 0 7px;
+    width: 49%;
+}
+.service-categories ul li a{
+    padding: 10px 5px;
+}
+.service-categories ul li span{
+    font-size: 10px;
+    line-height: 17px;
+    text-align: center;
+}
+.mob_recharge figure{
+    height: 50px;
+    width: 50px;
+}
+.mob_recharge section{
+    width: 55%;
+}
+.mob_recharge section span{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+
+    .couponShop .userOff li {
+        width: 18% !important;
+    }
+    .couponShop .userOff li a {
+        padding: 15px 0px !important;
+        font-size: 13px !important;
+    }
+    .celebCoupon {
+        float: left;
+        width: 50%;
+    }
+    #quickPick .item{
+        width: 98%;
+    }
+     .sitemap-list li span{
+    font-size: 14px;
+}
+.service-categories ul li{
+    margin-bottom: 15px;
+    padding: 0 7px;
+    width: 49%;
+}
+.service-categories ul li a{
+    padding: 10px 5px;
+}
+.service-categories ul li span{
+    font-size: 10px;
+    line-height: 17px;
+    width: 72%;
+    margin: 5px auto 0;
+}
+
+}
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+
+    .celebCoupon {
+        float: left;
+        width: 33.33%;
+    }
+    #quickPick .item{
+        width: 90%;
+    }
+     .sitemap-list li span{
+    font-size: 14px;
+
+}
+.service-categories ul li {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    width: 32%;
+}
+}
+.accountAccordian {
+    display: none;
+}
+
+/*MOBILE-RESPONSIVE-EXTRA-SMALL-DEVICE*/
+
+@media only screen and (max-width: 767px) {
+
+.mb-bottom{
+    margin-bottom: 25px !important;
+}
+.partnerOfferBlock{
+    padding: 15px 0 0 0 !important;
+}
+.customerDetail .group input{
+    font-size: 13px;
+}
+
+#offerBanner{
+    display: none;
+}
+#scroll{
+    background-color: #f26e22;
+    border: none;
+}
+#scroll span{
+    border-bottom-color:#fff;
+}
+.jioredeemText{
+    position: relative;
+    left: 0;
+    right: initial;
+    bottom: 5px;
+}
+ .error-box {
+    top: 10px;
+    /* left: 15px; */
+    /* margin: 0 auto; */
+    width: 100%;
+    position: relative;
+    }
+.tab-pane > .valign {
+    display: block;
+    min-height: auto;
+    margin: 0 -15px;
+    height: auto !important;
+}
+#mobProfField{
+    display: none;
+}
+.detailEditForm{
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.detailEditForm .group{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.detailEditForm .group input{
+    line-height: 38px;
+}
+.detailEditForm .group .floatingLabel{
+    top: 0px;
+}
+.detailEditForm .group input:focus ~ .floatingLabel, .detailEditForm .group input:valid ~ .floatingLabel{
+    top: -21px;
+}
+.subBtn button{
+    width: 100%;
+    color: #fff;
+    background: #f26e22;
+}
+#mobEditAddress{
+    display: none;
+}
+.applycode{
+    width: 100%;
+}
+.tab-content{
+    padding-top: 0px !important;
+}
+.planBrowse .group {
+/*    margin-right: -15px;
+    margin-left: -15px;*/
+    width: auto;
+    float: none;
+}
+.back {
+    background: transparent;
+    border: none;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    top: 11px;
+    position: absolute;
+    left: 10px;
+}
+.indvidualDetails{
+    padding-bottom: 15px;
+    padding-left: 0;
+    overflow: hidden;
+}
+.indvidualDetails ul{
+    margin-bottom: 15px;
+}
+.indvidualDetails table td{
+    padding: 9px 0 9px 15px;
+}
+.indvidualDetails table td span{
+    left: 15px;
+}
+.contact-left h3{
+    text-align: left;
+}
+/*.planBrowse .group{
+    margin-left: -15px;
+    margin-right: -15px;
+}*/   
+.datepick.acnt{
+    top: 8px;
+}
+.contactPage form{
+    border-left: none;
+}
+#forgotDiv .modalFormWrapper .leftLogin{
+    width: 100%;
+}
+
+.mobile-app-download{
+    overflow: hidden;
+    height: 34px;
+    background: #f26e22;
+    padding: 0 28px 0 15px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition: all 500ms ease;
+    position: relative;
+}
+.mobile-app-download button{
+    background: transparent;
+    border: none;
+    /* width: 20px; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.mobile-app-download button > img{
+    width: 11px;
+}
+.mobile-app-download > span{
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    float: left;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+.mobile-app-download ul{
+    overflow: hidden;
+    list-style: none;
+    float: right;
+    margin-bottom: 0;
+}
+.mobile-app-download li{
+    float: right;
+    width: 80px;
+    margin-left: 7px;
+}
+.mobile-app-download li a{
+    display: block;
+    padding: 5px 0;
+}
+#offerBanner figure{
+    overflow: hidden;
+    text-align: center;
+    /* background: #ccc; */
+    padding: 0 15px;
+}
+#offerBanner figure img{
+    height: auto;
+    /* max-width: initial; */
+    /* width: auto; */
+}
+    .mobile-date{
+        display: block;
+        color: #4c4d4f;
+        text-transform: uppercase;
+    }
+    .border-color{
+        border-color: red;
+    }
+.totalAmount{
+    border-top: dashed 1px #ccc;
+}
+.rs{
+    font-size: 22px;
+    top: 11px;
+}
+.personalDetail table td{
+    padding-left: 0;
+}
+#pass {
+    padding: 0 15px;
+}
+#ticket {
+    padding: 0 15px;
+}
+.service-tax{
+    position: relative;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+.service-tax p {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+.newclass .group .rechargeToolTip{
+    top: 37px;
+    width: 270px;
+    left: 15px;
+}
+.offerGet.postpiad-redeem{
+    right: 0;
+}
+.op-desc-page{
+    padding: 25px 0;
+}
+.head-section{
+    padding-bottom: 15px;
+}
+.head-section figure{
+    float: none;
+    margin: 0 auto 15px;
+}
+.head-section h1{
+    float: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+}
+.op-desc-page section{
+    margin-bottom: 15px;
+}
+.content-body h3{
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+}
+.offer-list ul li{
+    margin-bottom: 35px;
+}
+.offer-list ul li figure{
+    width: 70px;
+}
+.coupon.sm{
+    margin-top: 0;
+}
+.no-top-padding{
+    padding-top: 0 !important;
+}
+.prePostWrap{
+    margin-top: 12px;
+}
+.modal-content{
+    top: 0;
+}
+.successWrapper{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.successWrapper ul{
+    padding-left: 0 !important;
+    text-align: center !important;
+}
+.successWrapper ul li{
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+.successWrapper figure{
+    width: 155px;
+    margin: auto;
+}
+.receiptDropdown{
+    width: 77px;
+}
+.successWrapper h3{
+    font-size: 17px;
+    text-align: center;
+}
+.successWrapper p{
+    font-size: 12px;
+    margin-bottom: 8px;
+    line-height: 18px;
+    text-align: center;
+}
+.successWrapper span{
+    font-size: 12px;
+    line-height: 18px;
+}
+.successDetails{
+    width: 100%;
+}
+.successDetails ul{
+    margin: 30px 0 20px;
+    overflow: hidden;
+}
+.summury{
+    overflow-x: scroll;
+    margin-top: 40px;
+}
+.partnerDiscount p{
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    text-align: justify;
+}
+.successDetails ul li{
+    margin-right: 0;
+}
+.successDetails ul li:first-child{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.successDetails ul li:nth-child(2){
+    /* float: right; */
+    width: auto;
+    display: inline-block;
+}
+.successDetails ul li:nth-child(2) a{
+    background: transparent;
+    color: #f26e22;
+    border: none;
+    font-size: 12px
+}
+.successDetails ul li:nth-child(3) a{
+    background: transparent;
+    color: #f26e22;
+    border: none;
+    font-size: 12px;
+}
+.successDetails ul li:nth-child(3){
+    /* float: right; */
+    width: auto;
+    margin-right: 5px;
+}
+.successDetails ul li a{
+    color: #fff;
+    background: #f26e22;
+    border: solid 1px #f26e22;
+}
+.failure h3{
+    line-height: 22px;
+}
+.failure p {
+    width: 100%;
+}
+.detail-again{
+    width: 100%;
+    padding: 15px;
+}
+.detail-again p{
+    font-size: 13px;
+}
+.secure-notification{
+    width: 100%;
+}
+.escalate-form {
+    padding: 0 15px !important;
+    margin: 0 15px !Important;
+    width: auto !important;
+}
+#open-support{
+    padding-top: 0;
+}
+#open-support > p{
+    padding: 0 15px;
+}
+.scheme-table{
+    overflow-x: scroll;
+    padding-left: 0;
+}
+#escalate-mob .customeSelect.selectWithLabel{
+    padding-top: 0;
+}
+.contactPage p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 21px;
+    margin: 10px auto 30px;
+}
+.escalate-form:after{
+    content: none;
+}
+.hintToolTip{
+    max-width: 189px;
+    line-height: 19px;
+    padding: 0 9px;
+    border-radius: 0 3px 3px 0;
+    left: initial;
+    top: 16px;
+    right: 0;
+}
+.hintToolTip:before {
+    top: 0px;
+    left: -7px;
+    border-top: 10px solid transparent;
+    border-right: 7px solid #3c3a3a;
+    border-bottom: 9px solid transparent;
+}
+.otherlink li a{
+    font-size: 13px;
+}
+.detail-header{
+    padding: 0 0 11px 0;
+}
+.sitemap-list{
+        padding-left: 0 !important;
+    }
+
+    .sitemap-list li{
+        width: 49%;
+    }
+    .static-page ul{
+        padding-left: 15px;
+        text-align: justify;
+    }
+    .service-categories ul{
+        padding-left: 0;
+    }
+.user {
+    padding-left: 0;
+    margin: 9px 0;
+}
+.scheme-plan {
+    width: 100%;
+    margin-top: 20px;
+    height: 100%;
+}
+.profileDropDown {
+    top: 40px;
+}
+.user:before {
+    display: none;
+}
+.scheme-plan .page-title {
+    font-size: 16px;
+}
+.user .user_info {
+    color: #f25d01;
+}
+.user .user_info i {
+    font-size: 12px;
+}
+.user .user_info a.userDrop {
+    width: 12px;
+}
+.scheme-plan .operator {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+}
+.viewScheme {
+    display: table;
+    margin: 0 auto 20px;
+}
+.static-page h4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.dropdown_button {
+    font-size: 13px !important;
+    letter-spacing: 0px;
+    line-height: 12px;
+    font-weight: 500;
+}
+.missedCoupon h3 {
+    margin: 15px 35px 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.missedCoupon h4 {
+    margin: 15px 15px 0;
+    font-size: 13px;
+}
+.plansList.header {
+    display: none;
+}
+.planTabs .tabHead-mobile {
+    overflow: auto;
+    padding: 0;
+}
+.planTabs .nav-tabs {
+    display: block;
+    width: 665px;
+    padding: 0 15px;
+    background: #fff;
+    border: 0;
+    min-height: 40px;
+}
+.tabs-left>li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.tabs-left>li a {
+    display: block;
+    line-height: 40px;
+    padding: 0px 14px;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.tabs-left>li.active {
+    border-bottom: 2px solid #f26e22;
+}
+.tabs-left>li.active a {
+    background: transparent;
+    border: 0;
+    font-weight: 600;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  background: transparent;
+    border: 0;
+    font-weight: 600;
+}
+
+#pass .group input{
+    padding: 0;
+    line-height: 34px;
+}
+#pass .newclass .floatingLabel{
+    left: 0;
+    text-transform: capitalize;
+}
+
+
+.planTabs .tab-content {
+    width: calc(100% - 30px) !important;
+    overflow: auto;
+    margin: 10px auto 0;
+    height: auto;
+}
+.plansList.selected {
+    position: relative;
+}
+.plansList.selected:after {
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 30px;
+    background: url(../img/selected-plan.png) no-repeat;
+    right: 0;
+    top: 0;
+}
+.plansList li.amount span,
+.plansList li.tt span,
+.plansList li.val span {
+    display: block;
+}
+.plansList li.amount {width: auto;text-align: left;margin-right: 10px;}
+.plansList li.amount.btn {width: 50px;text-align: center;float: left;}
+.plansList li.amount span,
+.plansList li.tt span,
+.plansList li.val span {
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.plansList li.val {
+    width: 100%;
+    text-align: left;
+    margin-right: 10px;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+    font-size: 11px;
+}
+.plansList li.tt {
+    width: 100%;
+    text-align: left;
+    margin-right: 10px;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+    font-size: 11px;
+}
+.plansList li.desc {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+}
+.plansList {
+    border-bottom: 2px solid #f6f6f6;
+    padding-bottom: 15px;
+}
+
+.quickRecharge .customNav {
+    top: 60px;
+}
+
+.vodafone-section {
+    background: url(../img/voda-sideimage.png) no-repeat;
+    background-position: top right;
+    background-size: 80px;
+}
+.edgeToedge {
+    padding-top: 75px;
+}
+.tabView-account {
+    display: none;
+}
+.accountAccordian {
+    display: block;
+}
+#nav-icon3{
+  width: 6px;
+  height: 23px;
+  position: relative;
+  /* margin: 50px auto; */
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  margin: 16px 0;
+}
+ #nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #f26e22;
+  border-radius: 0;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+
+
+
+/* Icon 3 */
+
+#nav-icon3 span:nth-child(1) {
+  top: 4px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 10px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  bottom: 5px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+
+    .navbar-header {
+        text-align: center;
+    }
+    .navbar-toggle {
+        float: left;
+        border: none;
+        margin-right: 0;
+        /* padding: 17px 10px 9px 0; */
+    }
+    .navbar-inverse .navbar-toggle:focus,
+    .navbar-inverse .navbar-toggle:hover {
+        background: transparent;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        /* line-height: 25px; */
+        padding-left: 15px;
+    }
+    .navbar-inverse .navbar-nav>li>a.login_register {
+        line-height: 20px;
+    }
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #777;
+    }
+    .navbar-brand {
+        float: none;
+        width: 180px;
+        height: auto;
+        display: inline-block;
+        margin: 11px 0;
+    }
+    .navbar-right {
+        float: right;
+        margin: 13px 0;
+    }
+    .navbar-right li a {
+        font-size: 12px !important;
+        margin: 0;
+        padding: 1px 10px !important;
+        border-radius: 2px;
+    }
+    .navbar-collapse {
+        float: none;
+    }
+    #myNavbar {
+        margin: 0 -15px;
+        border-color: #eee;
+    }
+    .navbar-inverse .navbar-nav > li > a i {
+        display: inline-block;
+        margin-right: 15px;
+        /* margin-top: 7px; */
+    }
+    .navbar-inverse .navbar-nav > li > a span {
+        display: inline-block;
+        vertical-align: top;
+    }
+    /*=========RECHARGE-TAB==========*/
+    .static-page {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #product {
+        padding: 80px 0 20px;
+        min-height: 150px;
+    }
+    #product.tab-wrapp {
+        /*padding-top: 158px;*/
+        transition: all 0.8s ease;
+    }
+
+    #product .nav-pills {
+        float: none;
+        width: 100%;
+        min-height: 50px;
+        text-align: center !important;
+        padding: 15px 0 0;
+        font-size: 0px;
+        /*position: fixed;
+        z-index: 200;
+        top: 81px;
+        left: 0;
+        right: 0;*/
+        background: url('../img/background-img/bg-pattern.jpg');
+        box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.2);
+        background-size: inherit;
+        transition: all 0.8s ease;
+    }
+    #product .nav-pills li {
+        float: left;
+        display: inline-block;
+        width: 20%;
+        margin-left: 0px;
+        padding: 0;
+    }
+    #product .nav-pills li a {
+        padding: 0;
+        color: #505050;
+    }
+    #product .nav-pills li a img {
+        display: block;
+        float: none;
+        margin: 0 auto 3px;
+    }
+
+    .nav-pills.userOff {
+        padding: 0 15px !important;
+        margin-top: 10px;
+        height: auto;
+        position: initial !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+    .nav-pills.userOff li {
+        width: 20%;
+    }
+    .nav-pills.userOff li a {
+        padding: 0;
+        color: #505050;
+    }
+
+    .verticalMenu li a img {
+        width: 30px;
+    }
+    .verticalMenu .active::after {
+        content: " ";
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: #f26e22;
+        top: auto;
+        left: 0;
+        right: 0;
+    }
+    .planBrowse input {
+        line-height: 48px;
+    }
+    input.rechargeAmount {
+        font-size: 18px !Important;
+        line-height: 15px !important;
+        padding: 15px 0 15px 25px;
+        /* padding: 0 0 0 18px !Important; */
+    }
+    .newclass .floatingLabel {
+        top: -30px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.71);
+    }
+    .coupon .group input {
+        line-height: 30px;
+        padding-top: 3px;
+    }
+    /*=========RECHARGE-TAB-OPTION==========*/
+    
+    .mobileContainerFullWidth {
+        padding: 0;
+    }
+    #product .customerDetail {
+        float: none;
+        width: 100%;
+        border-radius: 0;
+    }
+    .tabContentWrapper {
+        padding: 32px 15px 15px;
+        min-height: auto !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #product .customerDetail .tab-content {
+        float: none;
+        width: 100%;
+    }
+    #product .customerDetail .circularImg {
+        display: none;
+    }
+    label {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    span.fixedText {
+        font-size: 16px !Important;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-right: 0 !Important;
+        height: 45px;
+        line-height: 45px; 
+    }
+    .floatingLabel {
+        font-size: 13px;
+        margin-bottom: 0;
+        top: 0;
+        left: 40px;
+        color: #777;
+        height: 45px;
+        line-height: 15px;
+        display: block;
+        padding: 15px 0;
+    }
+    input {
+        font-size: 14px;
+        padding: 10px 10px 9px 35px;
+        line-height: 26px;
+        border-color: #a0a0a0 !important;
+        border-radius: 0;
+    }
+    .operator {
+        width: 48%;
+    }
+    .newCustomSelect select {
+        height: 36px;
+        line-height: 36px;
+        margin-bottom: 4px;
+        font-size: 13px;
+        color: #777;
+        padding: 0 0px;
+        border-color: #a0a0a0;
+    }
+    .operator_logo {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .newCustomSelect select:focus {
+        outline: none;
+    }
+    .newCustomSelect > img {
+        right: 0;
+        top: 15px;
+        width: 10px;
+    }
+    .submitRightside {
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .planBrowse .selectWithLabel {
+        /* clear: both; */
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .planBrowse {
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+    #radio2 {
+        margin-top: 20px;
+    }
+    .customeRadio {
+        /*text-align: center;*/
+    }
+    .customeRadio li {
+        float: none;
+        display: inline-block;
+    }
+    .customeRadio li .check {
+        /* border: 2px solid #555; */
+        width: 18px;
+        height: 18px;
+        top: 1px;
+    }
+    .customeRadio li input[type="radio"]:checked ~ .check {
+        border: 2px solid #f26e22;
+    }
+
+    .submitRightside a {
+        padding: 0;
+        width: 100%;
+        color: #fff;
+        background: #f26e22;
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        margin-top: 15px;
+    }
+    .continueBtn a {
+        padding: 0;
+        width: 100%;
+        color: #fff;
+        background: #f26e22;
+        font-size: 14px;
+        line-height: 45px;
+        height: 45px;
+        letter-spacing: 3px;
+    }
+    .continueBtn {
+        display: block;
+        margin-left: -15px;
+        margin-right: -15px;
+        float: none;
+        padding-top: 0;
+    }
+    .coupon .group {
+        overflow: hidden;
+        min-height: 40px;
+    }
+    .customerDetailWrap {
+        padding: 2px 0 8px;
+        border-color: #a0a0a0 !important;
+    }
+    .redeem {
+        color: #555 !important;
+    }
+    .redeem::after {
+        right: 0;
+        border-width: 1px;
+    }
+    span.apply {
+        top: 12px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .offerGet p {
+        font-size: 12px;
+    }
+    .offerGet {
+        position: relative;
+        bottom: 115px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin: auto;
+        padding: 0 15px;
+    }
+    .trashIcon {
+        top: 8px;
+        right: 1px;
+    }
+    .checkbox p {
+        font-size: 12px;
+        line-height: 21px;
+        letter-spacing: 1px;
+    }
+    .totalOffer {
+        top: -12px;
+        padding: 0 15px;
+    }
+    .payMobWrapper {
+        background: #fff;
+        padding-top: 15px;
+    }
+    .unlockCoupon {
+        margin-top: 40px;
+    }
+    .couponShop {
+        margin: 0 -20px;
+    }
+    .control-group {
+        text-align: left;
+        overflow:hidden;
+        min-height:40px;
+    }
+    .checkbox p > span > b {
+        font-size: 16px;
+    }
+    .missedOffer {
+        padding: 20px 15px;
+    }
+    .offer {
+        padding: 35px 15px;
+        width: auto;
+        margin: auto;
+    }
+    .offer .offerText1 {
+        float: none;
+        margin-right: 4px;
+        line-height: 15px;
+        display: inline-block;
+    }
+    .offer .offerText2 {
+        vertical-align: top;
+        font-weight: 600;
+        float: none;
+        margin-right: 4px;
+        display: inline-block;
+    }
+    .offer .offerText3 {
+        float: none;
+        line-height: 18px;
+        display: inline-block;
+    }
+    #product .customerDetail {
+        min-height: 200px;
+    }
+    .slide {
+        padding: 0 0 25px;
+    }
+    .quickRecharge {
+        padding: 15px;
+    }
+    .quickRecharge h2::after {
+        right: a0;
+        left: 0;
+        bottom: -9px;
+        top: auto;
+        width: 100px;
+        margin: auto;
+    }
+    .quickRecharge h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        color: #777;
+    }
+    #quickPick .item {
+        padding: 8px 5px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .quickRecharge .customNavigation {
+        top: 54%;
+    }
+    .checkbox .control {
+        position: absolute;
+        top: 0;
+        z-index: 200;
+    }
+    .checkbox p {
+        padding-left: 34px;
+        position: relative;
+        top: -8px;
+    }
+    /*================COMPANY-ADVERTISEMENT==================*/
+    
+    .advertise {
+        float: none;
+        width: 100%;
+    }
+    /*================OFFER-BANNER==================*/
+    #billPayment, .fullSection {
+        padding: 20px 0;
+    }
+    #billPayment h2 {
+        text-align: center;
+    }
+    h2 {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+    .textArea p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .imgArea {
+        padding: 25px 0;
+    }
+    #downloadSection {
+        padding: 20px 0 0;
+    }
+    #downloadSection h2 {
+        text-align: center;
+    }
+    .productApp {
+        margin: 30px 0;
+    }
+    .productApp ul {
+        text-align: center;
+    }
+    .productApp li a img {
+        width: 120px;
+    }
+    .or {
+        margin: 0 4px;
+        padding: 7px 0;
+    }
+    #allOperators {
+        padding: 20px 0;
+    }
+    .operatorLogoHeading .simLogo {
+        float: none;
+    }
+    .operatorLogoHeading .simLogo > img {
+        display: block;
+        margin: auto;
+    }
+    .operatorLogoHeading .planHeading {
+        float: none;
+        padding: 5px 0 0;
+    }
+    .operatorLogoHeading .planHeading > p {
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .operatorLogoHeading {
+        padding: 5px 20px 0;
+    }
+    .planListTable {
+        overflow: scroll;
+        padding: 15px 15px 0;
+    }
+    .planListTable table {
+        border: solid 1px #eee;
+    }
+    .tableBorderRight {} .planListTable table th {
+        font-weight: 600;
+        font-size: 13px;
+        color: #333;
+    }
+    .planListTable table td {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .productDescription {
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .productDescription p {
+        text-align: justify;
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 5px;
+    }
+    input:focus ~ .floatingLabel,
+    input:valid ~ .floatingLabel {
+        font-size: 13px;
+        top: -25px;
+    }
+    .operator label {
+        font-size: 13px;
+        /* color: #333; */
+        margin-bottom: 0;
+    }
+    .newclass .selectWithLabel label {
+        /* margin-bottom: 12px; */
+    }
+    .mob_code {
+        margin-bottom: 55px;
+    }
+    .radio label {
+        min-height: auto;
+    }
+    .mobileOperatorList ul {
+        margin-bottom: 5px;
+    }
+    .mobMB {
+        margin-bottom: 25px;
+    }
+    h3 {
+        margin-bottom: 20px;
+    }
+    .line:after {
+        content: none;
+    }
+    .customeRadio ul {
+        text-align: left;
+    }
+    .rechargeList {
+        height: auto;
+        margin-top: 15px;
+    }
+    .doubleUl .rechargeList {
+        margin-bottom: 15px;
+    }
+    .rechargeList li {
+        display: inline-block;
+        width: 48%;
+        margin-bottom: 3px;
+    }
+    .rechargeList li a {
+        font-size: 11px;
+        display: block;
+    }
+    .doubleUl {
+        margin-top: 15px;
+    }
+    .doubleUl .rechargeList li {
+        display: block;
+        width: 100%;
+    }
+    .listHeader {
+        padding: 14px 15px;
+        margin: 0px -15px 15px;
+        background: #333;
+    }
+    #footerSection {
+        background-image: none;
+        background-color: #444;
+    }
+    .mobSelectMb {
+        margin-bottom: 20px;
+        padding-top: 0 !Important;
+    }
+    .mobSelectMb .circle{
+        float: none;
+        width: 100%;
+    }
+    .footerDivider {
+        margin-bottom: 30px;
+    }
+    .footerDivider:after {
+        content: none;
+    }
+    .footerBottom .rechargeApp li img {
+        height: 46px;
+    }
+    .rechargeApp ul li {
+        display: inline-block;
+        margin-right: 0;
+        width: 49%;
+    }
+    .socialLinks img {
+        height: 46px;
+    }
+    .socialLinks ul li {
+        margin-right: 10px;
+    }
+    .card ul li {
+        width: 28%;
+    }
+    /*================PAYMENT METHOD==================*/
+    
+    .paymentBody:after {
+        content: none;
+    }
+    .mobDivider {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+        border-bottom: dashed 1px #ccc;
+    }
+    .mobDivider ul {
+        width: 52%;
+    }
+    .mobDivider ul:last-child {
+        width: 48%;
+        float: right;
+    }
+    .mobDivider-2 {
+        float: none;
+        width: 100%;
+    }
+    .mobDivider-2 ul {
+        width: 52%;
+    }
+    .mobDivider-2 ul:last-child {
+        width: 48%;
+    }
+    .mobDivider ul:last-child li{
+        text-align: right;
+    }
+    .paymentBody ul li {
+        font-weight: 500;
+    }
+    .totalAmount figure {
+        display: none;
+    }
+    .paymentHeader h3:after {
+        width: 100%;
+        height: 1px;
+    }
+    .payableAmount {
+        float: none;
+        width: 100%;
+    }
+    .payableAmount span {
+        font-size: 16px;
+        width: 27%;
+    }
+    .payableAmount b {
+        padding: 2px 0;
+        width: 73%;
+        font-size: 13px;
+    }
+    #prepaidPayment {
+        padding: 20px 15px 0;
+    }
+    .paymentGateway {
+    margin: 8px -15px 0;
+    padding-bottom: 20px;
+    box-shadow: none;
+    padding-top: 0;
+    background: #f7f7f7;
+    border-top: 1px solid#ccc;
+    }
+    .panel-heading {
+        border-radius: 0;
+    }
+    .paymentGateway .panel {
+        border-radius: 0;
+        border: none;
+    }
+    .paymentGateway .panel-default>.panel-heading {
+        background: #fff;
+        padding: 0;
+    }
+    .paymentGateway h4 {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .paymentGateway h4 a {
+        padding: 15px;
+        display: block;
+    }
+    .paymentGateway h4 a .fa {
+        float: right;
+        font-size: 15px;
+    }
+    .paymentGateway h4 a:focus {
+        color: #f26e22;
+    }
+    .paymentGateway h4 a:active {
+        color: #f26e22;
+    }
+    .bankList li {
+        margin-right: 0;
+        width: 49%;
+        display: inline-block;
+        margin-bottom: 8px;
+        height: 47px;
+    }
+    .bankErrorBox{
+        width: 100%;
+        padding: 5px 5px;
+        top: -72px;
+    }
+    .bankErrorBox p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .bankList li input {
+        height: 45px;
+        border-width: 1px;
+        border-color:#a0a0a0;
+    }
+    .panel-body > b {
+        font-size: 11px;
+        display: block;
+        text-transform: uppercase;
+        color: #888;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .bankList li a {
+        margin: auto;
+    }
+    .bankSearch {
+        width: 100% !important;
+    }
+    .payHeader {
+        background: #fff;
+        padding: 15px;
+        border-bottom: solid 2px #eee;
+    }
+    .payHeader b {
+        text-transform: uppercase;
+        color: #777;
+        font-size: 14px;
+        font-weight: 600;
+        display: block;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .panel-heading.active {
+        color: #f26e22 !important;
+    }
+    #userLogin .modal-lg {
+        width: 100%;
+    }
+    .modalNav {
+        padding: 0 !important;
+    }
+    .modalNav li {
+        width: 32% !important;
+        margin-left: 0 !important;
+        margin-bottom: 11px;
+        border-radius: 3px;
+        display: inline-block !important;
+    }
+    .modalNav .foget-title{
+        width: initial !important;
+    }
+    .modalNav li a {
+        width: 100%;
+        font-size: 12px;
+        line-height: 27px;
+    }
+    .modal-body {
+        padding: 15px;
+    }
+    .modalFormWrapper .leftLogin {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .modalFormWrapper .rightLogin {
+        float: none;
+        width: 100%;
+    }
+    .wrapperForm:after {
+        content: none;
+    }
+    .genderRadio {
+        margin-top: 40px;
+    }
+    .item {
+        padding: 2px 10px;
+        width: 94%;
+        margin-left: 4px;
+        margin-right: 0;
+        height: 42px;
+    }
+    .productApp h2 {
+        text-align: center;
+    }
+    .mobApp {
+        background: #f8f8f8;
+        margin: 0;
+        padding: 15px 0;
+    }
+    .customerLoginModal .logo {
+        width: 175px;
+    }
+    .modal-header .close {
+        font-size: 27px;
+    }
+    .modalInput:focus ~ .floatingLabel,
+    .modalInput:valid ~ .floatingLabel {
+        top: -20px !important;
+    }
+    .leftLogin input {
+        padding: 15px 0 15px !important;
+        line-height: 25px;
+        border-color: #fff !important;
+    }
+    .newTest li a {
+        text-transform: capitalize;
+    }
+    .verticalMenu li a span {
+        font-size: 13px;
+        height: 30px;
+        line-height: 22px;
+        display: block;
+        vertical-align: top;
+    }
+    #allOperators h2,
+    h3 {
+        text-align: center;
+    }
+    .mobileOperatorList ul {
+        text-align: center;
+    }
+    .mobileOperatorList ul li {
+        width: 60px;
+        height: 60px;
+        padding: 9px;
+    }
+    #offerBanner {
+        background: transparent;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 300;
+        padding: 0;
+        overflow-y: hidden;
+        /* max-height: 100px; */
+        transition-property: all;
+        transition-duration: .5s;
+        transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+        transition: all 500ms ease;
+    }
+    .wrapper {
+        position: relative;
+        padding-bottom: 45px;
+    }
+
+    /*ACCOUNT PAGE*/
+    div#customerAccount{
+        width: 90%;
+        padding: 20px 0 0;
+        margin: auto;
+        float: none;
+    }
+    .customerName{
+        text-align: center;
+    }
+    .customerName .firstLetter{
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 28px;
+    }
+    .nameEmail b{
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .nameEmail .userEmail{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .rewardsBtn{
+        text-align: center;
+    }
+    .rewardsBtn button{
+        width: 195px;
+        padding: 7px 0;
+    }
+    .rewardsBtn button b{
+        font-size: 16px;
+    }
+    #customerAccount #accordion .fa{
+        float: right;
+    }
+    #customerAccount #accordion .panel-title a{
+        text-transform: uppercase;
+        display: block;
+        padding: 15px;
+    }
+    #customerAccount #accordion .panel{
+        border: none;
+        background: #fff;
+    }
+    #customerAccount #accordion .panel-body{
+        border-top: none;
+    }
+    #customerAccount #accordion .panel-title{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    #customerAccount #accordion .panel-heading{
+        padding: 0;
+        background: #fff;
+    }
+    #customerAccount .panel-group{
+        margin: 20px -15px 0;
+        background: #f8f8f8;
+        padding: 5px 0;
+    }
+    .prof .panel-body{
+        padding: 20px 0 !important;
+    }
+    .op-name{
+            display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4c4d4f;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    }
+    .rechargeHistory{
+           height: 91px;
+           box-shadow: 0px 1px 4px #999;
+           padding: 6px 11px;
+           margin-bottom: 15px;
+           border-radius: 4px;
+    }
+    .supportHistory{
+           height: 91px;
+    box-shadow: 0px 1px 4px #999;
+    padding: 6px 11px;
+    margin-bottom: 15px;
+    }
+    #customerAccount #accordion .panel-title a:focus{
+        color: #f25d01;
+    }
+   #customerAccount #accordion .panel-title a:active{
+    color: #f25d01;
+   }
+   .personalDetail table td{
+    font-size: 13px;
+   }
+   .address .custName b{
+    font-size: 16px;
+   }
+   .address .custName{
+    margin-bottom: 20px;
+   }
+   .addDetails span{
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 8px;
+   }
+   .modal{
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+   }
+   .modal-dialog{
+    margin: 0;
+   }
+   .dropdown-menu{
+        max-height: 160px;
+        overflow-x: auto;
+   }
+   .contactPage form{
+    width: 100%;
+    background: #f8f8f8;
+    padding: 5px 15px 15px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+   }
+   .contactPage.no-background form{
+        background: #fff;
+        box-shadow: none;
+        padding: 15px 0 0;
+    }
+   .userSecondInput{
+    padding-top: 0
+   }
+   .contactPage .userSecondInput .newclass{
+    float: none;
+    width: 100%;
+    padding: 10px 0 0 0;
+    margin-top: 0;
+   }
+    .contactPage .userSecondInput .newclass input{
+        line-height: 35px;
+        background: transparent;
+        border-radius: 0 !important;
+    }
+    .contactPage .userSecondInput .newclass .floatingLabel{
+        top: -30px !important;
+        text-transform: uppercase !important;
+        color: #4c4d4f;
+        font-weight: 600 !important;
+    }
+    .readonly-box label{
+        text-transform: uppercase;
+    } 
+    .static-page ul.num{
+        padding-left: 15px !important;
+    }
+.mobile-view {
+    background: #eee;
+    margin: 0 -15px;
+    display: block;
+}
+button.accordion {
+    background-color: #fff;
+    color: #999;
+    cursor: pointer;
+    padding: 18px 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+button.accordion.active{
+    background-color: #fff;
+    color: #f26e22;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+    color: #f26e22;
+}
+
+div.panel-custom {
+    padding: 0 15px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    margin-bottom: 0;
+    border-bottom: 1px #eee solid;
+}
+div.panel-custom.show {
+    opacity: 1;
+    max-height: 2000px;
+    padding: 15px;
+}
+.panel-custom ul{
+    padding-top: 4px;
+}
+.mobile-plans-wrapper .modal-header{
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.mobile-plans-wrapper {
+    /* padding: 60px 0 0 0 !important; */
+ background: rgb(255, 102, 102);
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(45deg, rgba(255, 102, 102, 1) 0%, rgba(255, 165, 102, 1) 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(45deg, rgba(255, 102, 102, 1) 0%, rgba(255, 165, 102, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(45deg, rgba(255, 102, 102, 1) 0%, rgba(255, 165, 102, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff6666', endColorstr='#ffa566', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+.operator-name{
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.operator-name h1{
+    display: inline-block;
+    width: 45px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.operator-name span{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+.mobile-plan-view{
+    padding-top: 80px;
+}
+.mobile-plan-view ul{
+    list-style: none;
+}
+.mobile-plan-view ul li {
+    margin-bottom: 5px;
+}
+.mobile-plan-view ul li a{
+    box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.5);
+    display: block;
+    color: #777;
+    padding: 12px 10px 4px;
+    /* border: solid 1px #f25d01; */
+    border-radius: 3px;
+    background: #fff;
+}
+.mobile-plan-view ul li a strong{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.mobile-plan-view ul li a strong p{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 4px 0 0 0;
+}
+.mobile-plan-view ul li a strong p b{
+    font-weight: 600;
+    color: #333;
+}
+
+span.bold-head {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    /* color: #777; */
+}
+span.bold-head b{
+    color: #777;
+    font-weight: 600;
+}
+.left-align{
+    float: left;
+    color: #555;
+}
+.right-align{
+    float: right;
+    color: #555;
+}
+.validity{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.box-outer {
+  width: 100%;
+  height: 55px;
+  position: relative;
+  background: #fff;
+  /* margin: 0 4px; */
+}
+
+.arrow-left {
+  position: absolute;
+  width: 17px;
+  height: 100%;
+  top: 0px;
+  left: 0;
+  z-index: 200;
+  display: block;
+  padding: 14px 0;
+}
+
+.arrow-right {
+  position: absolute;
+  width: 17px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  display: block;
+  padding: 14px 0;
+}
+
+.box-inner {
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.accordio-label{
+    top: 15px !important;
+    left: 0 !important;
+    text-transform: uppercase;
+}
+ .accordion-form input:focus ~ .accordio-label,
+    .accordion-form input:valid ~ .accordio-label {
+        top: -10px !important;
+    }
+.redeem_check{
+    top: 0 !important;
+}
+.applycode{
+    padding-bottom: 5px;
+    margin-top: -11px;
+    margin-bottom: 15px;
+}
+.jioproCir{
+    min-height: 125px;
+    position: relative;
+    z-index: 1;
+}
+.jio-cont-one a, .dth_step1 a, .datacard_step1 a, .submitRightside a{
+    width: 100%;
+    color: #fff;
+    background: #f26e22;
+}
+.jio-cont-one{
+    padding: 0;
+}
+.receipt-container h4{
+    font-size: 18px;
+    line-height: 26px;
+}
+.rewardsBtn a{
+    width: 110px;
+    margin: 20px auto 0;
+    float: none;
+}
+.emailReceiptForm{
+    padding: 30px 15px;
+}
+.emailReceiptForm .subBtn{
+    margin: 0 -15px;
+}
+.emailReceiptForm .newclass .floatingLabel{
+    top: 0;
+}
+.emailReceiptForm  input:focus ~ .floatingLabel, .emailReceiptForm  input:valid ~ .floatingLabel{
+    top: -21px;
+}
+#emailSubmit .modal-dialog{
+    width: 90%;
+    margin: auto;
+    top: 50px;
+}
+#howToUse .modal-body{
+    max-height: 100%;
+    height: 100vh;
+}
+.modalRIN .modal-header .close{
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    color: #555;
+    font-size: 35px;
+    font-weight: 700;
+}
+.modalRIN .modal-title{
+    line-height: 25px;
+    font-size: 17px;
+}
+.modalRIN .modal-title > img{
+    display: block;
+    margin: auto;
+}
+.modalRIN .modal-title > span{
+    display: block;
+}
+.modalRIN .modal-body .subs_detail h3{
+    font-size: 13px;
+    margin: 10px 0 0;
+    line-height: 19px;
+    padding-bottom: 10px;
+}
+ .rechargeToolTip{
+        width: 100%;
+        top: initial;
+        bottom: 70px;
+    }
+.rechargeToolTip .wrap img{
+    display: none;
+}
+.rechargeToolTip p{
+    text-align: justify;
+}
+.rechargeToolTip .wrap{
+    padding: 15px 9px 8px;
+}
+#forgotForm{
+    width: 100%;
+}
+#forgPass li{
+    width: 185px !important;
+}
+#forgPass li a{
+    width: 100%;
+    text-align: center;
+}
+.forgetSuccessMsg{
+    padding: 60px 0;
+}
+.forgetSuccessMsg h1{
+    font-size: 24px;
+}
+.forgetSuccessMsg p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.printR li{
+    float: none !important;
+    display: block;
+    margin-bottom: 15px;
+}
+.recpt a{
+    display: inline-block;
+}
+.quickRecharge .customNav.prev{
+    top: 60px;
+}
+.quickRecharge .customNav.next{
+    top: 60px;
+}
+.mobileScrollheader{
+    display: block;
+    margin-top: 0;
+}
+.mobileScrollheader .arrow-left{
+    padding: 20px 2px;
+    left: 0;
+    background: rgba(0, 0, 0, 0) url(../img/background-img/bg-pattern.jpg) repeat scroll 0 0;
+}
+.mobileScrollheader .arrow-left img{
+    width: 12px;
+}
+.mobileScrollheader .arrow-right{
+    background: rgba(0, 0, 0, 0) url(../img/background-img/bg-pattern.jpg) repeat scroll 0 0;
+    padding: 21px 0;
+    
+}
+.mobileScrollheader .arrow-right img{
+    width: 12px;
+}
+.mobileScrollheader .box-outer{
+    background: transparent;
+    height: 62px;
+    padding: 0 0;
+    margin-top: 10px;
+}
+.mobileScrollheader .box-inner{
+    background: transparent;
+    width: 150%;0% */
+    padding: 0px 0 0;
+    padding-top: 0 !important;
+    padding: 0 20px;
+}
+.mobileScrollheader .box-inner li{
+    height: 100%;
+    width: 15%;
+    text-align: center;
+    padding-top: 6px;
+}
+.mobileScrollheader .box-inner li img{
+    width: 25px;
+    display: block;
+    margin: 0 auto 5px;
+}
+.mobileScrollheader .box-inner li span{
+    display: block;
+    line-height: 17px;
+    color: #555;
+    font-weight: 500;
+    font-size: 13px;
+}
+.mobileScrollheader .tabs-left>li.active{
+    border-bottom: solid 2px #f26e22;
+    height: 61px;
+}
+.mobileScrollheader .tabs-left>li.active span{
+    color: #f26e22;
+    font-weight: 600;
+}
+.succMsg .modal-dialog{
+    width: 80%;
+    margin: auto;
+    top: 45px;
+}
+.sliderheader{
+    padding: 0px 0 0 0 !important;
+    box-shadow: none !important;
+    background: #fff !important;
+}
+.sliderheader li{
+    float: none !important;
+    width: auto !important;
+    display: block !important;
+}
+.couponShop .nav-pills li a{
+    padding: 23px 25px !important
+}
+.activeBank{
+    margin-top: 15px;
+}
+.activeBank .preSelectOperator{
+    width: 100%;
+}
+.activeBank .preSelectOperator label{
+    text-align: left;
+}
+.bankActive li{
+    width: 100%;
+    border: none;
+    height: auto;
+    margin: 0 0 2px 0;
+}
+.rs-select{
+    position: relative;
+    top: -20px;
+}
+.coupon .customerOperator{
+    font-size: 13px;
+}
+.loginRadio{
+    margin-top: 20px;
+    margin-bottom: 0 !Important;
+}
+.modalFormWrapper{
+    padding-top: 15px;
+}
+.noMT{
+    margin-top: -8px;
+}
+.noMT .rs-select{
+    top: 10px;
+    margin-bottom: 35px;
+}
+.activeHistory{
+    background: transparent;
+}
+.contactPage form .selectService{
+    float: none;
+    width: 100%;
+}
+.contactPage form .selectSubject{
+    float: none;
+    width: 100%;
+}
+.contactus-form .rightAlign{
+    float: none !important;
+    width: 100%!important;
+}
+
+.contactPage form:after{
+    content: none;
+}
+.contactus-form .planBrowse{
+    margin-top: 0;
+    padding-top: 5px;
+}
+.contactus-form .planBrowse .group{
+    margin-left: 0;
+    margin-right: 0;
+}
+.rs-select .rechargeToolTip{
+    position: relative;
+    top: 15px !important;
+    width: 100% !important;
+    left: 0 !important;
+}
+.scheme-plan .customeSelect{
+    min-height: 310px;
+}
+.newCheck.control-group.deviceMt{
+    overflow: initial;
+}
+.newCheck.control-group{
+    overflow: initial;
+}
+.resetPassMobile input{
+    padding-left: 0px !important;
+}
+.rinAwardsWrapper{
+    padding: 15px;
+}
+.rinAwardsWrapper figure{
+    float: none;
+    width: 100px;
+    margin: auto;
+    box-shadow: none;
+}
+.textAward{
+    float: none;
+    width: 100%;
+}
+.textAward p{
+    text-align: center;
+}
+.all-awards::after{
+    content: none;
+}
+.wrap{
+    width: 100%;
+    float: none;
+}
+.right-traingle::before{
+    content: none;
+}
+.left-traingle::before{
+    content: none;
+}
+.sequence{
+    width: 100%;
+}
+.extra-pt{
+    margin-top: 0;
+}
+.landing-input-box form{
+    width: 100%;
+}
+.landing-input-box form .group{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.landing-input-box form .group input{
+    padding-left: 0px;
+}
+.landing-input-box form .group label{
+    top: 0px;
+}
+input:focus ~ .landingFloat, input:valid ~ .landingFloat{
+    top: -25px !important;
+}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+.navbar-brand {
+    width: 120px;
+    margin: 14px 0;
+    float: left;
+    margin-left: 15px;
+    }
+    .rechargeId p {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+.copy-right p {
+    font-size: 10px;
+}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px){
+.navbar-right{
+    margin: 15px 0;
+}
+.mobileScrollheader .box-inner li{
+    width: 11%;
+}
+.mobileScrollheader .box-inner li span{
+    font-size: 14px;
+}
+h2{
+    font-size: 16px;
+    line-height: 28px;
+}
+.textArea p{
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+.floatingLabel{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.customerDetail .group input{
+    font-size: 14px;
+}
+.customeRadio li label{
+    font-size: 14px;
+}
+.offer{
+    padding: 24px 15px;
+}
+.slide{
+    padding: 0;
+}
+.offer .offerText1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.offer .offerText3{
+    font-size: 20px;
+    line-height: 25px;
+}
+.operator label{
+    font-size: 14px;
+}
+.newclass label{
+    font-size: 14px;
+}
+.error-box p{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+label{
+    font-size: 14px;
+}
+.coupon .customerOperator{
+    font-size: 14px;
+}
+label.redeem {
+    font-size: 15px;
+}
+.jioredeemText p {
+    line-height: 29px;
+}
+.unlockCoupon{
+    margin-top: 5px;
+}
+.bankList li label img{
+    width: 45%;
+}
+.paymentGateway h4{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.panel-body > b{
+    text-align: center;
+}
+.nameEmail .userEmail{
+    font-size: 14px;
+}
+button.accordion{
+    font-size: 14px;
+}
+.personalDetail table td{
+    font-size: 14px;
+    padding: 4px 50px 4px 0;
+}
+.addDetails span{
+    font-size: 14px;
+    line-height: 18px;
+}
+.support-mobile p{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+.op-name{
+    font-size: 15px;
+    color: #333;
+}
+.help-tab{
+    padding: 0 !important;
+}
+.help-tab p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.help-tab ul li b{
+    font-size: 14px;
+    color: #333;
+}
+.help-tab ul li{
+    font-size: 14px;
+    line-height: 22px;
+}
+.passBtn{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.modal{
+    width: 85%;
+    margin: 35px auto 0;
+    height: auto;
+}
+.newCheck .control{
+    font-size: 13px;
+}
+.listHeader b{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.rechargeList li{
+    margin-bottom: 5px;
+}
+.rechargeList li a{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.mobileOperatorList ul li{
+    width: 70px;
+    height: 70px;
+}
+}
+
+/*==============Tablet Version================*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #product {
+        padding: 59px 15px 20px;
+        min-height: 480px;
+    }
+    #product .nav-pills {
+        float: none;
+        width: 100%;
+        min-height: 50px;
+        text-align: center !important;
+        padding: 0 15px;
+    }
+    #product .nav-pills li {
+        float: none;
+        display: inline-block;
+        width: 19%;
+    }
+    .border {
+        display: none;
+    }
+    .verticalMenu li a span {
+        display: block;
+    }
+    .verticalMenu li a img {
+        margin-right: 0;
+    }
+    .newTest li a {
+        padding: 15px 5px 5px;
+        font-size: 14px;
+    }
+    .advertise {
+        min-height: 345px;
+    }
+    .advertise ul li img {
+        width: 180px;
+        height: 150px;
+        margin: auto;
+        display: block;
+    }
+    #offerBanner {
+        background: #f8f8f8;
+        padding: 25px 0;
+    }
+    #product .customerDetail {
+        width: 74%;
+        min-height: 328px;
+    }
+    #product .customerDetail .circularImg img {
+        width: 160px;
+    }
+    .tabContentWrapper {
+        height: auto !important;
+        margin-top: 20px;
+    }
+    .offer {
+        padding: 24px 20px;
+    }
+    .slide {
+        padding: 5px 0 37px 0;
+    }
+    .imgArea > img {
+        width: 30%;
+        margin-top: 20px;
+        display: none;
+    }
+    #billPayment {
+        padding: 30px 0 20px;
+    }
+    h2 {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .textArea p {
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+    #downloadSection {
+        padding: 30px 0 20px;
+    }
+    .downLoadMob > img {
+        display: none;
+    }
+    .productApp {
+        margin-top: 40px;
+        text-align: center;
+    }
+    #allOperators {
+        padding: 30px 0 0;
+    }
+    #allOperators h2,
+    h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .mobileOperatorList ul {
+        text-align: center;
+    }
+    #footerSection {
+        background-image: none;
+        background-color: #444;
+    }
+    .listHeader {
+        padding: 14px 15px;
+        margin: 0px -15px 15px;
+        background: #333;
+    }
+    .rechargeList {
+        margin: 15px 0;
+        height: auto;
+        overflow: hidden;
+    }
+    .rechargeList li {
+        width: 50%;
+        float: left;
+    }
+    .line:after {
+        content: none;
+    }
+    .doubleUl {
+        margin-top: 15px;
+    }
+    .doubleUl .rechargeList {
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .verticalMenu .active:after {
+        content: " ";
+        width: 100%;
+        height: 1px;
+        background: #f04d00;
+        left: 0;
+        bottom: 0;
+        top: initial;
+    }
+    .floatingLabel {
+        font-size: 14px;
+        top: 16px;
+    }
+    .operator label {
+        font-size: 14px;
+    }
+    #product .customerDetail .tab-content {
+        float: none;
+    }
+    .submitRightside button {
+        width: 115px;
+        float: right;
+        font-size: 14px;
+    }
+    .message {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .messages {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    label {
+        font-size: 14px;
+    }
+    input {
+        font-size: 14px;
+    }
+    .operator select {
+        font-size: 14px;
+    }
+    .continueBtn button {
+        width: 115px;
+        float: right;
+        font-size: 14px;
+    }
+    .coupon .group {
+        margin-right: 15px;
+    }
+    .checkbox p {
+        font-size: 12px;
+    }
+    .control__indicator {
+        left: 5px;
+        height: 18px;
+        width: 18px;
+    }
+    .couponShop .nav-pills li{
+        width: 100% !important;
+    }
+    .sliderheader li{
+        width: 100% !important;
+    }
+    .control--checkbox .control__indicator:after {
+        left: 5px;
+        top: 2px;
+        width: 6px;
+        height: 11px;
+    }
+    .offerGet p {
+        margin-bottom: 0;
+    }
+    .couponShop .nav-pills li a {
+        padding: 15px 5px !important;
+        font-size: 13px !important;
+    }
+    .navbar-brand {
+        width: 155px;
+        height: 28px;
+        margin: 15px 0;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 11px;
+        padding: 9px 11px 5px;
+    }
+    .navbar-right li a {
+        font-size: 13px !important;
+        margin: 11px 0px 11px 5px;
+        padding: 0 11px !important;
+        line-height: 34px;
+    }
+    .offer .offerText2 {
+        font-size: 42px;
+        line-height: 34px;
+    }
+    .offer .offerText1 {
+        font-size: 18px;
+        margin-top: 7px;
+    }
+    .offer .offerText3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .planListTable table th {
+        font-size: 13px;
+    }
+    .planListTable table td {
+        font-size: 12px;
+    }
+    .operatorLogoHeading .simLogo {
+        float: none;
+        text-align: center;
+    }
+    .operatorLogoHeading .planHeading {
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+    .operatorLogoHeading {
+        padding: 20px 20px 0;
+    }
+    .paymentBody ul li {
+        font-size: 12px;
+    }
+    .payableAmount b {
+        font-size: 12px;
+    }
+    .payableAmount span {
+        font-size: 18px;
+    }
+    .paymentHeader {
+        padding: 0 !important;
+    }
+    .paymentHeader li {
+        width: auto!important;
+    }
+    .payUsing b {
+        font-size: 13px;
+    }
+    .paymentHeader li a {
+        font-size: 13px;
+        padding: 14px 5px;
+    }
+    .bankList li {
+        width: 30%;
+        margin-right: 10px;
+    }
+    li.bankSearch {
+        width: 67% !important;
+        margin-top: 18px;
+    }
+    .payBtn {
+        overflow: hidden;
+    }
+    .payBtn button {
+        float: none;
+    }
+    .bankList li a {
+        margin: auto;
+    }
+    .paymentGateway {
+        padding-bottom: 0;
+    }
+    .modal-dialog {
+        width: 90%;
+    }
+    .leftLogin input {
+        line-height: 19px;
+    }
+    .leftLogin .group {
+        margin-bottom: 22px;
+    }
+    .tab-pane > .valign{
+        min-height: initial;
+    }
+    .mobSelectMb > .group{
+        width: 45%;
+    }
+    .full-width-form{
+        padding-top: 0;
+    }
+    .error-box{
+        width: 400px;
+        top: 55px;
+    }
+} 
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) and (orientation: landscape){
+.mobDropDown{
+    height: 220px;
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+.redeem_check{
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0px;
+}
+.userSecondInput input:focus ~ .floatingLabel, .userSecondInput input:valid ~ .floatingLabel{
+    top: -25px !important;
+}
+.help{
+    top: 6px;
+}
+#redeem{
+    height: initial;
+}
+label.redeem{
+    height: 100%;
+}
+.redeem_check label.control.control--checkbox{
+    top: 15px;
+}
+#coupon{
+    padding-left: 0px;
+}
+    .modalFormWrapper input, 
+    .accordion-form input, 
+    .contactus-form input, 
+    .escalate-form input, 
+    .changePasswordForm input, 
+    .customerDetail .group input {
+        font-size: 14px;
+        line-height: 15px;
+        padding: 15px 9px 15px 35px;
+        width: 100%;
+        height: 45px;
+    }
+    .leftLogin .group {
+        margin-bottom: 15px;
+    }
+    .coupon .fixedText {
+        height: auto;
+        line-height: initial;
+    }
+    .resetPassMobile .floatingLabel.accordio-label{
+        padding: 0px;
+    }
+    .resetPassMobile{
+        margin-top: 0px;
+    }
+}
